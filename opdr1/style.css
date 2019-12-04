@@ -15,9 +15,12 @@ body, html {
     align-items: center;
 }
 
-main {
+.main {
     width: 100%;
     height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 
 .blok2, .blok3, .blok4, .blok5, .blok6, .blok7 {
@@ -29,27 +32,27 @@ main {
 }
 
 .voornaam, .achternaam, .geboortedatum, .nickname, .emailadres, .telefoonnummer {
-    margin-left: 300px;
+    margin-top: 10px;
 }
 
 input {
     border: 3px solid black;
     width: 200px;
-    height: 50px;
+    height: 40px;
 }
 
 label {
     color: green;
     font-size: 40px;
-    margin-left: 280px;
+    margin-left: 160px;
 }
 
 div > h2 {
-    width: 300px;
+width: 180px;
 }
 
 .knop {
-    margin-left: 430px;
+    margin-left: 300px;
     margin-bottom: 20px;
     background-color: green;
 }
